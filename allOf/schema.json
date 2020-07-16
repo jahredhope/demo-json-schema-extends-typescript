@@ -3,5 +3,5 @@
   "title": "Schema",
   "description": "Any Shape",
   "additionalProperties": false,
-  "oneOf": [{ "$ref": "circle.json" }, { "$ref": "square.json" }]
+  "anyOf": [{ "$ref": "circle.json" }, { "$ref": "square.json" }]
 }
