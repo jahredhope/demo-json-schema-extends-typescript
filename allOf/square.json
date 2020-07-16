@@ -2,16 +2,18 @@
   "type": "object",
   "title": "Square",
   "description": "A Square",
-  "additionalProperties": false,
   "allOf": [
     {
       "$ref": "shape.json"
     },
     {
+      "additionalProperties": false,
       "properties": {
         "type": { "enum": ["square"] },
-        "radius": { "type": "number" }
-      }
+        "height": { "type": "number" },
+        "width": { "type": "number" }
+      },
+      "required": ["type", "height", "width"]
     }
   ]
 }

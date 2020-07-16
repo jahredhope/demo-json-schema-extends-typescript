@@ -10,5 +10,6 @@
     "type": { "enum": ["square"] },
     "height": { "type": "number" },
     "width": { "type": "number" }
-  }
+  },
+  "required": ["type", "height", "width"]
 }

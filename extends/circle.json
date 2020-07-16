@@ -9,5 +9,6 @@
   "properties": {
     "type": { "enum": ["circle"] },
     "radius": { "type": "number" }
-  }
+  },
+  "required": ["type", "radius"]
 }

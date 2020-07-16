@@ -13,23 +13,22 @@ export type Schema = Circle | Square;
  * A Circle
  */
 export type Circle = Shape & {
-  type?: "circle";
-  radius?: number;
-  [k: string]: unknown;
+  type: "circle";
+  radius: number;
 };
 /**
  * A Square
  */
 export type Square = Shape & {
-  type?: "square";
-  radius?: number;
-  [k: string]: unknown;
+  type: "square";
+  height: number;
+  width: number;
 };
 
 /**
  * A Shape
  */
 export interface Shape {
-  type?: string;
-  id?: string;
+  type: string;
+  id: string;
 }
