@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "title": "Square",
+  "description": "A Square",
+  "additionalProperties": false,
+  "extends": {
+    "$ref": "shape.json"
+  },
+  "properties": {
+    "type": { "enum": ["square"] },
+    "height": { "type": "number" },
+    "width": { "type": "number" }
+  }
+}

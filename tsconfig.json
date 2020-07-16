@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "target": "es6",
+    "moduleResolution": "node",
+    "module": "commonjs"
+  },
+  "include": ["./build.ts"]
+}

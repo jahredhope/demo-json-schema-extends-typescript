@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "title": "Circle",
+  "description": "A Circle",
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "$ref": "shape.json"
+    },
+    {
+      "properties": {
+        "type": { "enum": ["circle"] },
+        "radius": { "type": "number" }
+      }
+    }
+  ]
+}
