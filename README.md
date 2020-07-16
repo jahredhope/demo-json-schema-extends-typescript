@@ -1,6 +1,6 @@
-# Demo json-schema-extends-typescript
+# Demo json-schema-to-typescript
 
-This repository demonstrates the different behaviours between `allOf` and `extends` in generated types using json-schema-extends-typescript.
+This repository demonstrates the different behaviours between `allOf` and `extends` in generated types using json-schema-to-typescript.
 
 This repository contains folders with different implementations where multiple child schemas extend a parent schema. In this case the children `Circle` and `Square` both extend `Shape`.
 
